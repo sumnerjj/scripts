@@ -5,7 +5,6 @@ for Jpg in $1/*
 do
 		if [[ $Jpg =~ .*.jpg ]]
 		then
-    	echo "$Jpg"
 			./lepton-master/lepton "$Jpg" "./lepton_compressed/$(basename "$Jpg").lep"
 		fi
 
