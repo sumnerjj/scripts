@@ -1,3 +1,5 @@
+# Compress jpg images from a directory using Dropbox's Lepton: 
+# https://github.com/dropbox/lepton
 mkdir lepton_compressed
 for Jpg in $1/*
 do
